@@ -1,0 +1,22 @@
+{
+  "name": "words-app",
+  "version": "1.0.0",
+  "description": "Words app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "keywords": [
+    "sockets",
+    "reactjs",
+    "nodejs",
+    "webrtc"
+  ],
+  "author": "Camilo Botello <jcamilovelandiab@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
