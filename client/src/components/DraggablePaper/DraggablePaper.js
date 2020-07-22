@@ -43,6 +43,8 @@ export default function DraggablePaper(props){
     const handleOnMouseUp = () =>{
         if(props.parent!=="container"){
             document.body.style.cursor = 'grab';
+        }else{
+            document.body.style.cursor = 'default';
         }
     }
 
